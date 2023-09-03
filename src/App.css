@@ -1,0 +1,28 @@
+
+.dual-scrollable-sections {
+  display: flex;
+}
+
+.scrollable-section {
+  max-height: 700px; 
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.left-section {
+  flex: 1;
+  margin-right: 10px; 
+  background-color: aqua;
+}
+
+.right-section {
+  flex: 1; 
+  background-color: aqua;
+}
+.title{
+  cursor: pointer;
+}
+:hover.title{
+  color:red;
+}
